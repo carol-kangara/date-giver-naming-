@@ -3,3 +3,9 @@
     text-transform: uppercase;
     font-size: 20px;
 }
+.container-fluid{
+    background-image: url("/img/img1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
