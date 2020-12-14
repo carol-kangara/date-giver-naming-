@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <script src="./js/script.js"></script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="jumbotron">
+                    <h1> AFRICAN CULTURE</h1>
+                    <p>How interesting can it be to be named according to the day of the week you were born?This tradition is carried out in Ghana and the names given are called  Akan names.Let me take you throught the process.To know your Akan name follow the following:
+                    </p>
+                <ul>
+                    <ul>
+                        <li>You enter the day you were born</li>
+                        <li>the program calculates the day of the week you were born </li>
+                        <li>Depending on your gender outputs an Akan Name will be given to you.</li>
+                    </ul>
+                </ul>
+                
+                </div>
+
+            </div> 
+            <div class="col-md-5">
+                <form id="formM" class="form" onsubmit="display();">
+                    <label for="year">Year of Birth</label>
+                    <input type="text" id="year" name="year" placeholder="Enter year of Birth">
+                    <label for="month" >Month  Birth</label>
+                    <input type="number" id="month" name="month" placeholder="Enter month of birth" min="1" max="12">
+                    <label for="date"> Date of Birth</label>
+                    <input type="number" id="date" name="date" placeholder="Enter date of birth" min="1" max="31">
+                    <label for="Gender" id="choose"></label>
+                    <input type="radio" id="female" value="female">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </form>
+    
+            </div>
+        </div>
+        
+
+    </div>
+    
+    
+</body>
+</html>
