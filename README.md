@@ -11,11 +11,10 @@ This is a program that takes users bitrthday date and from the date it derives t
 ## Known Bugs
 When the work is submitted there it results to a 405 error but am working to resolve it
 ## Technologies Used
-I used:
-* css
-* Html
-* JavaScript
-* Bootstrap
+*css
+*Html
+*JavaScript
+*Bootstrap
 ## Support and contact details
 you can reach me using the following:
 * phone:0101234568
