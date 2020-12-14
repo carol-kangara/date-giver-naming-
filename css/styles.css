@@ -2,16 +2,20 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
-}
-.container-fluid{
-    background-image: url("/img/img1.jpeg");
+    background-image: url("../img/img5.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    height:100vh;
+    background-size:cover;
+    font-size:bold;
+}
+body{
+    background-color: #5dbcd2;
+    font-size:bold;
 }
 form{
     display: flex;
     flex-direction: column;
+    position:center;
+    margin:80px
 }
 /* input[type=number].select{
     width:100%;
