@@ -9,8 +9,12 @@
     background-size: cover;
     height:100vh;
 }
-input[type=number].select{
+form{
+    display: flex;
+    flex-direction: column;
+}
+/* input[type=number].select{
     width:100%;
     padding:12px 20px;
     display: inline;
-}
+} */
